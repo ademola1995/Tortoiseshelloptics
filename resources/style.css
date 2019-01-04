@@ -1,0 +1,248 @@
+html{
+    font-size:18px;
+}
+.headercontainer{
+    height:125px;
+  background-color:cadetblue;
+   
+}
+.headercontainer span{
+color:white;
+margin-left:3rem;
+margin:auto;
+padding:1rem;
+font-family:Helvetica;
+font-size:2rem;
+}
+.moveit{
+   height:1.5rem;
+   margin-left:2rem;
+   margin-top:35px
+ 
+}
+.navigationbar{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:40px;
+    position:relative;
+    bottom:40px;
+}
+@media only screen and (max-width:512px){
+    .navigationbar{
+        position:relative;
+        bottom:20px;
+        right:20px;
+        padding:20px;
+     
+    }
+}
+nav li a{
+  text-decoration:none;
+  color:white;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+nav li{
+    display:inline-block;
+   
+}
+.part{
+    background-image: url("../images/glasses-bg.png");
+    height:695px;
+   
+    
+}
+.part ,h2 {
+    display:flex;
+    justify-content:flex-end;
+    
+    
+}
+.part h2{
+    background-color:white;
+    height:119px;
+    width:485px;
+   margin:auto;
+   margin-right:39px;
+   position:relative;
+   top:49px;
+   left:60px;
+   margin-top:7rem;
+    
+}
+@media only screen and (max-width:580px){
+    .part h2{
+        padding-bottom:30px;
+        line-height:4rem;
+    }
+}
+@media only screen and (max-width:960px){
+    .part h2{
+       margin-top:5rem;
+    }
+}
+@media only screen and (max-width:480px){
+    .part h2{
+        line-height:20px;
+    }
+}
+h2{
+    font-family:helvetica;
+    font-weight:bold;
+    font-size:2rem;
+    line-height:85.5px;
+    padding-right:5rem;
+ 
+}
+@media only screen and (max-width:960px){
+     h2{
+         font-size:2.33rem;
+         padding-bottom:0.75rem;
+        
+        
+        
+     }
+}
+.images{
+    display:flex;
+    position:relative;
+    justify-content:space-around;
+    align-items: center;
+    height:455px;
+}
+@media only screen and (max-width:580px){
+    .images{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+        
+  }
+}
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagecontainer img{
+      height:30px;
+}
+
+  
+@media only screen and (max-width:960px){
+       
+}
+.thirdpart {
+    display:flex;
+    font-family:Helvetica;
+    font-weight:bold;
+    font-size:1rem;
+    padding-left:15px;
+   
+}
+.thirdpart p{
+    position:relative;
+    top:77px;
+    right:300px;
+    padding-left:22px;
+    padding-top:1rem;
+     width:35%;
+}
+ .fourthpart{
+    
+    font-family:Helvetica;
+    font-weight:bold;
+    font-size:1rem;
+    font-family:Helvetica;
+    font-weight:bold;
+    font-size:1rem;
+    padding-left:15px;
+    
+ }
+.fourthpart p{
+ left:886px;
+ position: relative;
+ bottom:190px;
+ padding-bottom:5rem;
+}
+
+@media only screen and (max-width:580px){
+    .fourthpart p {
+        position:relative;
+        left:340px;
+        bottom:355px;
+    }
+    .fourthpart h2{
+       
+    }
+}
+@media only screen and (max-width:960px){
+    .fourthpart p {
+        position: relative;
+         left:340px;
+        bottom:350px;
+       
+        
+       
+    }
+}
+.fourthpart h2{
+    position:relative;
+    bottom:185px;
+    color:black;
+   
+}
+@media only screen and (max-width:960px){
+     .fourthpart h2{
+         position:relative;
+         right:95px;
+         bottom:390px;
+         left:290px;
+         
+     }
+}
+.cadetblue{
+    color:white;
+    background-color:cadetblue;
+}
+.holdh2{
+    background-color:cadetblue;
+    height:90px;
+    color:white;
+    font-family:Helvetica;
+    font-weight:bold;
+}
+.holdh2 h2{
+    position:relative;
+    bottom:20px;
+}
+.background{
+    background-color:azure;
+    height:120px;
+}
+.changeimage{
+    height:1.5rem;
+    padding-top:40px;
+   
+}
+.background h3{
+    position:relative;
+    left:140px;
+    bottom:54px;
+}
+.background{
+    padding-bottom:4rem;
+    padding-top:4rem;
+    margin-bottom:5rem;
+}
+.changeimage{
+    padding-left:2.8rem;
+}
+.h2{
+    background-color:cadetblue;
+}
+.sitecontainer{
+    max-width: 960px;
+}
